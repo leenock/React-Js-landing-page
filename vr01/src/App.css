@@ -48,13 +48,17 @@ p {
   -o-transition: background-color 0.5s;
 }
 .btn-outline-primary {
-  color: var(--primary);
-  background-color: var(--white);
-  border: 1px solid var(--primary);
+  color: white;
+  font-weight: 600;
+  border-radius: 10px 25px 10px 25px;
+  padding: 15px 32px 15px 32px;
+  background-color: #9e6b58;
+  border: 1px solid #5e3bee00;
+
 }
 .btn-outline-primary:hover {
-  color: var(--white);
-  background-color: var(--primary);
+  color: white;
+  background-color: black;
 }
 .btn-primary {
   color: var(--white);
