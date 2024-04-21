@@ -8,6 +8,8 @@
   gap: 32px;
   background-color: var(--bg-shade);
 }
+
+
 .hero--section--content-box {
   display: flex;
   flex-direction: column;
@@ -29,6 +31,8 @@
   font-weight: 700;
   line-height: 90px;
   align-self: stretch;
+  font-family: "DM Serif Display";
+
 }
 
 .hero--section--title--color {
@@ -36,9 +40,10 @@
 }
 .hero--section-description {
   color: var(--darkblue);
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 36px;
+  font-family: "Manrope";
 }
 .hero--section--img {
   display: flex;

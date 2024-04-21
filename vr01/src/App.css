@@ -58,12 +58,15 @@ p {
 }
 .btn-primary {
   color: var(--white);
-  background-color: var(--primary);
-  border: 1px solid var(--primary);
+  background-color: #9e6b58;
+  border: 1px solid #5e3bee00;
+  font-weight: 600;
+  border-radius: 50px 50px 50px 50px;
+  padding: 15px 32px 15px 32px;
 }
 .btn-primary:hover {
-  color: var(--primary);
-  background-color: var(--white);
+  color: white;
+  background-color: black;
 }
 .btn-github {
   color: var(--white);
