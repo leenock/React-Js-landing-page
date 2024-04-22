@@ -1,8 +1,8 @@
 
 /* Skills Section Style */
 .skills--section {
-  
     padding: 149.33px 85.33px;
+    margin-top: -250px;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
@@ -33,7 +33,10 @@
     min-height: 250px;
   }
   .skills--section--card:hover {
-    border-bottom: 4px solid var(--primary);
+    border-bottom: 4px solid;
+    color:#9e6b58;
+    transform: scale(1.05);
+    transition: 0.3s;
   }
   .skills--section--card:hover .skills--section--description {
     color: var(--darkblue);
@@ -81,7 +84,7 @@
   
   @media only screen and (max-width: 1600px) {
     .skills--section--heading {
-      font-size: 30px;
+      font-size: 27px;
       line-height: 70px;
     }
     .skills--section--container {
@@ -109,6 +112,7 @@
     }
     .skills--section {
         display: flex;
+        margin-top: 0px;
         
       }
    
