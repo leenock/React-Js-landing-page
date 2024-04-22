@@ -70,7 +70,7 @@ const Navbar = () => {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="MyPortfolio"
+                to="Aboutus"
                 className="navbar--content"
               >
                 About us
@@ -84,7 +84,21 @@ const Navbar = () => {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="MyPortfolio"
+                to="OurServices"
+                className="navbar--content"
+              >
+                Our Services
+              </Link>
+            </li>
+            <li>
+              <Link
+                onClick={closeMenu}
+                activeClass="navbar--active-content"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                to="PracticeAreas"
                 className="navbar--content"
               >
                 Practice Areas
@@ -98,54 +112,27 @@ const Navbar = () => {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="MyPortfolio"
+                to="CaseResults"
                 className="navbar--content"
               >
                 Case Results
               </Link>
             </li>
-            <li>
-              <Link
+            <Link
                 onClick={closeMenu}
                 activeClass="navbar--active-content"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="AboutMe"
-                className="navbar--content"
-              >
-                Pricing Plans
-              </Link>
-            </li>
-            <li>
-              <Link
-                onClick={closeMenu}
-                activeClass="navbar--active-content"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                to="testimonial"
-                className="navbar--content"
-              >
-                 Our Team
-              </Link>
-            </li>
+                to="Contact"
+                className="btn btn-outline-primary"
+                >
+                Contact Us
+         </Link> 
           </ul>
         </div>
-        <Link
-          onClick={closeMenu}
-          activeClass="navbar--active-content"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}
-          to="Contact"
-          className="btn btn-outline-primary"
-        >
-        Contact Us
-        </Link>
+     
       </nav>
     );
 }

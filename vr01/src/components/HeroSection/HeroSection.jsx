@@ -14,7 +14,7 @@ const HeroSection = () => {
         </h1>
         <p className="hero--section-description">
         Fliquam massa nisl quis neque suspendisse in orci 
-          <br /> enim of Lorem Ipsum proin gravida nibh vel velit auctor aliquet aenean sollicitudin
+          enim of Lorem Ipsum proin gravida nibh vel velit auctor aliquet aenean sollicitudin
         </p>
       </div>
       <button className="btn btn-primary">Get a Free Consultation</button>

@@ -51,5 +51,71 @@
 .hero--section--img > img {
   width: 100%;
   height: 100%;
+  box-shadow: inset 0 0 0 6px rgb(182 182 151 / 22%);
+  animation: profile__animate 8s ease-in-out infinite 1s;
+  
+}
+@keyframes profile__animate {
+    0% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+
+    }
+    50% {
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+
+    }
+    100% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+
+    }
 }
 /* Hero Section Style Ends */
+
+/* Responsive Screens */
+@media only screen and (max-width: 1800px) {
+    .hero--section--title {
+      font-size: 68px;
+      line-height: 70px;
+    }
+  }
+  @media only screen and (max-width: 1200px) {
+    .btn-outline-primary {
+   
+    }
+    .hero--section {
+      display: flex;
+      flex-direction: column-reverse;
+      padding: 20px;
+      padding-top: 100px;
+    }
+    .hero--section--title{
+      text-align: center;
+    }
+    .hero--section-description{
+        text-align: justify;
+      }
+
+    .hero--section--content,
+    .hero--section--content--box {
+      align-items: center;
+    }
+    .hero--section--title,
+    .sections--heading {
+      font-size: 35px;
+      line-height: 40px;
+    }
+    .hero--section--content--box {
+      gap: 10px;
+    }
+    .hero--section--content--box > button {
+        
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .divider {
+      margin: 20px;
+    }
+  }
