@@ -70,7 +70,7 @@ const Navbar = () => {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="Aboutus"
+                to="AboutUs"
                 className="navbar--content"
               >
                 About us

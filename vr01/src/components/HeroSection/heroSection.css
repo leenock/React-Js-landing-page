@@ -76,7 +76,14 @@
     .hero--section--title {
       font-size: 68px;
       line-height: 70px;
+      
     }
+    .section--title{
+        font-weight: 600;
+        font-family: "DM Serif Display";
+        font-size: 19px;
+    }
+   
   }
   @media only screen and (max-width: 1200px) {
     .btn-outline-primary {
