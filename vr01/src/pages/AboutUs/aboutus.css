@@ -1,7 +1,7 @@
 /* About Us */
 .about--section {
     display: grid;
-    padding: 133.3px 85.3px;
+    padding: 70.3px 85.3px;
     align-items: center;
     gap: 114.6px;
     grid-template-columns: repeat(2, 1fr);
