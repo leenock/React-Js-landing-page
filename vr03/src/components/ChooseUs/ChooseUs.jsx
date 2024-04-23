@@ -71,7 +71,7 @@ const ChooseUs = ({ title, content }) => {
                       className="down"
                     ></ion-icon>
 
-                    <spna className="span h5">Top-Notch Support</spna>
+                    <span className="span h5">Top-Notch Support</span>
                   </button>
                 </h3>
 
