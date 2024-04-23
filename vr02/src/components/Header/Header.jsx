@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-scroll";
 import "./header.css";
 
 const Header = () => {
@@ -11,8 +12,30 @@ const Header = () => {
       </label>
       <input type="checkbox" name="check" id="check" />
       <ul>
-        <li><a href="/#">Home</a></li>
-        <li><a href="/#">About</a></li>
+        <li><Link
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                to="Hero"
+                className="customCursor"
+              >
+                Homepage
+              </Link>
+              </li>
+        <li>
+          <Link
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                to="Aboutme"
+                className="customCursor"
+              >
+                About Me
+              </Link>
+        </li>
+
         <li><a href="/#">Resume</a></li>
         <li><a href="/#">Portfolio</a></li>
         <li><a href="/#">Contact</a></li>
