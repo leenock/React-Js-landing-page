@@ -1,11 +1,66 @@
-import React from 'react'
+import React, { useEffect, useRef } from "react";
 import "./hero.css";
 import "./mediaquery.css";
 
 const Hero = () => {
+    const sliderRef = useRef(null);
+    useEffect(() => {
+        const initSlider = (slider) => {
+          const sliderContainer = slider.querySelector("[data-slider-container]");
+          const sliderPrevBtn = slider.querySelector("[data-slider-prev]");
+          const sliderNextBtn = slider.querySelector("[data-slider-next]");
+    
+          let currentSlidePos = 0;
+    
+          const moveSliderItem = () => {
+            sliderContainer.style.transform = `translateX(-${sliderContainer.children[currentSlidePos].offsetLeft}px)`;
+          };
+    
+          const slideNext = () => {
+            const slideEnd = currentSlidePos >= sliderContainer.childElementCount - 1;
+    
+            if (slideEnd) {
+              currentSlidePos = 0;
+            } else {
+              currentSlidePos++;
+            }
+    
+            moveSliderItem();
+          };
+    
+          sliderNextBtn.addEventListener("click", slideNext);
+    
+          const slidePrev = () => {
+            if (currentSlidePos <= 0) {
+              currentSlidePos = sliderContainer.childElementCount - 1;
+            } else {
+              currentSlidePos--;
+            }
+    
+            moveSliderItem();
+          };
+    
+          sliderPrevBtn.addEventListener("click", slidePrev);
+    
+          const dontHaveExtraItem = sliderContainer.childElementCount <= 1;
+          if (dontHaveExtraItem) {
+            sliderNextBtn.style.display = "none";
+            sliderPrevBtn.style.display = "none";
+          }
+        };
+    
+        const sliders = document.querySelectorAll("[data-slider]");
+        sliders.forEach((slider) => initSlider(slider));
+    
+        return () => {
+          // Cleanup code if needed
+        };
+      }, []);
+    
+
     return (
-        <section class="section hero has-bg-image" aria-label="home"
-        style={{ backgroundImage: "url('./assets/images/hero-bg.jpg')" }}>
+        <section class="section hero has-bg-image" aria-label="home" 
+          style={{ backgroundImage: "url('./assets/images/hero-bg.jpg')" }}>
             <div class="container">
                 <div class="hero-content">
                     <h1 class="h1 hero-title">Crafting project specific solutions with expertise.</h1>
@@ -17,7 +72,7 @@ const Hero = () => {
                         <a href="/#" class="btn btn-outline">Contact Us</a>
                     </div>
                 </div>
-                <div class="hero-slider" data-slider>
+                <div className="hero-slider" data-slider ref={sliderRef}>
                     <div class="slider-inner">
                         <ul class="slider-container" data-slider-container>
                             <li class="slider-item">

@@ -4,7 +4,6 @@ import "./mediaquery.css";
 
 const Header = () => {
   const [navActive, setNavActive] = useState(false);
-
   const toggleNav = () => {
     setNavActive(!navActive);
   };
@@ -34,7 +33,7 @@ const Header = () => {
   }, []);
   return (
     <header className="header" data-header>
-      <div className="container">
+      <div className="container" >
         <a href="/#" className="logo">
           <img
             src="./assets/images/logo-light.svg"
@@ -53,7 +52,7 @@ const Header = () => {
         </a>
         <nav
           className={`navbar ${navActive ? "active" : "navbar.active"}`}
-          data-navbar
+          data-navbar onClick={closeMenu}
         >
           <div className="navbar-top">
             <a href="/#" className="logo">
