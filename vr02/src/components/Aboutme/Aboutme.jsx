@@ -5,8 +5,8 @@ const Aboutme = () => {
   return (
     <section class="section-about-us" id="Aboutme">
         <div class="section__container">
-           <h1>about me</h1>
-           </div>
+            <h1 >About Me</h1>
+        </div>
     </section>
    
   )
