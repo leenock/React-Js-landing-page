@@ -59,50 +59,50 @@ const Hero = () => {
     
 
     return (
-        <section class="section hero has-bg-image" aria-label="home" 
+        <section className="section hero has-bg-image" aria-label="home" 
           style={{ backgroundImage: "url('./assets/images/hero-bg.jpg')" }}>
-            <div class="container">
-                <div class="hero-content">
-                    <h1 class="h1 hero-title">Crafting project specific solutions with expertise.</h1>
-                    <p class="hero-text">
+            <div className="container">
+                <div className="hero-content">
+                    <h1 className="h1 hero-title">Crafting project specific solutions with expertise.</h1>
+                    <p className="hero-text">
                         We’re a creative company that focuses on establishing long-term relationships with customers.
                     </p>
-                    <div class="btn-wrapper">
-                        <a href="/#" class="btn btn-primary">Explore Now</a>
-                        <a href="/#" class="btn btn-outline">Contact Us</a>
+                    <div className="btn-wrapper">
+                        <a href="/#" className="btn btn-primary">Explore Now</a>
+                        <a href="/#" className="btn btn-outline">Contact Us</a>
                     </div>
                 </div>
                 <div className="hero-slider" data-slider ref={sliderRef}>
-                    <div class="slider-inner">
-                        <ul class="slider-container" data-slider-container>
-                            <li class="slider-item">
+                    <div className="slider-inner">
+                        <ul className="slider-container" data-slider-container>
+                            <li className="slider-item">
                             <figure className="img-holder" style={{ "--width": 575, "--height": 550 }}>
-                                    <img src="./assets/images/hero-slide-1.jpg" style={{ "--width": 575, "--height": 550 }} alt="" class="img-cover" />
+                                    <img src="./assets/images/hero-slide-1.jpg" style={{ "--width": 575, "--height": 550 }} alt="" className="img-cover" />
                                 </figure>
                             </li>
-                            <li class="slider-item">
-                                <div class="hero-card">
-                                    <figure class="img-holder" style={{ "--width": 575, "--height": 550 }}>
+                            <li className="slider-item">
+                                <div className="hero-card">
+                                    <figure className="img-holder" style={{ "--width": 575, "--height": 550 }}>
                                         <img src="./assets/images/hero-slide-2.jpg" width="575" height="550" alt="hero banner"
-                                            class="img-cover" />
+                                            className="img-cover" />
                                     </figure>
 
-                                    <button class="play-btn" aria-label="play adex intro">
+                                    <button className="play-btn" aria-label="play adex intro">
                                         <ion-icon name="play" aria-hidden="true"></ion-icon>
                                     </button>
                                 </div>
                             </li>
-                            <li class="slider-item">
-                                <figure class="img-holder" style={{ "--width": 575, "--height": 550 }}>
-                                    <img src="./assets/images/hero-slide-3.jpg" width="575" height="550" alt="" class="img-cover" />
+                            <li className="slider-item">
+                                <figure className="img-holder" style={{ "--width": 575, "--height": 550 }}>
+                                    <img src="./assets/images/hero-slide-3.jpg" width="575" height="550" alt="" className="img-cover" />
                                 </figure>
                             </li>
                         </ul>
                     </div>
-                    <button class="slider-btn prev" aria-label="slide to previous" data-slider-prev>
+                    <button className="slider-btn prev" aria-label="slide to previous" data-slider-prev>
                         <ion-icon name="arrow-back"></ion-icon>
                     </button>
-                    <button class="slider-btn next" aria-label="slide to next" data-slider-next>
+                    <button className="slider-btn next" aria-label="slide to next" data-slider-next>
                         <ion-icon name="arrow-forward"></ion-icon>
                     </button>
                 </div>
