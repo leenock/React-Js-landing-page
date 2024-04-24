@@ -7,10 +7,10 @@ const Project = () => {
     <section class="section project" aria-labelledby="project-label">
       <div class="container">
         <p class="section-subtitle" id="project-label">
-          Case Studies
+          Our projects 
         </p>
         <h2 class="h2 section-title">
-          Check out some of our awesome projects with creative ideas and great design.
+          Check out some of our  projects.
         </h2>
         <ul class="grid-list">
           <li>
