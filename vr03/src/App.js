@@ -4,6 +4,10 @@ import Hero from './components/Hero/Hero';
 import AboutUs from './components/AboutUs/AboutUs';
 import ChooseUs from './components/ChooseUs/ChooseUs';
 import Solutions from './components/OurSolutions/Solutions';
+import Stats from './components/stats/Stats';
+import Project from './components/Projects/Project';
+import Cta from './components/CTA/Cta';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -13,6 +17,10 @@ function App() {
       <AboutUs />
       <ChooseUs />
       <Solutions />
+      <Stats />
+      <Project />
+      <Cta />
+      <Footer />
     </div>
   );
 }
