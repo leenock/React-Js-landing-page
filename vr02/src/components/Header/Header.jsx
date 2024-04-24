@@ -29,7 +29,7 @@ const Header = () => {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="Aboutme"
+                to="about"
                 className="customCursor"
               >
                 About Me

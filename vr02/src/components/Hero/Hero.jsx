@@ -11,9 +11,10 @@ const Hero = () => {
              <span>Think.<br /></span> Design. Develop.
           </h1>
           <p class="description">
-          We are a new design studio based in USA. We have over 10 years of combined experience, and
-           know a thing or two about designing websites and mobile apps. 
-          Clever use of technology and lean processes enable us to work faster and smarter.
+          I am a full stack web developer with a passion for creating interactive and responsive web applications.
+          I have experience working with JavaScript, React, Redux, Node.js, Express, PostgreSQL, Sequelize, HTML, 
+          CSS, and Git. I am a quick learner and I am always looking to expand my knowledge and skill set. 
+          I am a team player and I am excited to work with others to create amazing applications.
           </p>
           <div class="action__btns">
             <button class="hire__me">Hire Me</button>
@@ -21,7 +22,7 @@ const Hero = () => {
           </div>
         </div>
         <div class="image">
-          <img src="./images/profile.jpg" alt="profile" />
+          <img src="https://nextjs-portfolio-mu-swart.vercel.app/_next/image?url=%2Fimages%2Fhero-image.png&w=384&q=75" alt="profile" />
         </div>
       </div>
     </section>

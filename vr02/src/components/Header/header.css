@@ -181,7 +181,7 @@
     ul {
       position: absolute;
       width: 100%;
-      height: calc(100vh - 85px);
+      height: 480%;
       left: -100%;
       top: 85px;
       background-color: var(--extra-light);
