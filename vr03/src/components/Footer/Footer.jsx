@@ -9,10 +9,10 @@ const Footer = () => {
         <div class="footer-brand">
           <a href="/" class="logo">
             <img
-              src="./assets/images/logo-light.svg"
+              src="./assets/images/light.png"
               width="74"
               height="24"
-              alt="Adex home"
+              alt="Leenocks"
             />
           </a>
           <p class="footer-text">

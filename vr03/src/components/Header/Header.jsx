@@ -36,14 +36,14 @@ const Header = () => {
       <div className="container" >
         <a href="/#" className="logo">
           <img
-            src="./assets/images/logo-light.svg"
+            src="./assets/images/light.png"
             width="74"
             height="24"
             alt="Adexhome"
             className="logo-light"
           />
           <img
-            src="./assets/images/logo-dark.svg"
+            src="./assets/images/dark.png"
             width="74"
             height="24"
             alt="Adexhome"
