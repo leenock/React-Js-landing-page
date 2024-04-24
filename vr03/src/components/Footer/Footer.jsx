@@ -52,7 +52,7 @@ const Footer = () => {
           </li>
           <li>
             <address class="footer-text">
-              Moonshine St. 14/05 Light City, London, United Kingdom
+              Moi Avenue Wing A Bazaar plaza
             </address>
           </li>
           <li>
@@ -61,8 +61,8 @@ const Footer = () => {
             </a>
           </li>
           <li>
-            <a href="tel:001234567890" class="footer-link">
-              00 (123) 456 78 90
+            <a href="tel:25478900876" class="footer-link">
+              254 (07) 000 00 00
             </a>
           </li>
         </ul>
