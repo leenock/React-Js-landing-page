@@ -16,7 +16,7 @@ const Footer = () => {
             />
           </a>
           <p class="footer-text">
-            &copy; 2022 codewithleenock. <br /> All rights reserved.
+            &copy; 2024 codewithleenock. <br /> All rights reserved.
           </p>
           <ul class="social-list">
             <li>
