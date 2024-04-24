@@ -57,7 +57,7 @@ const Header = () => {
           <div className="navbar-top">
             <a href="/#" className="logo">
               <img
-                src="./assets/images/logo-light.svg"
+                src="./assets/images/light.png"
                 width="74"
                 height="24"
                 alt="Adex home"
