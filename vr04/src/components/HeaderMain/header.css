@@ -1,0 +1,16 @@
+#header {
+  padding: 15px 8%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--gradient-white-bg);
+  z-index: 100;
+  transition: .3s;
+}
+.justify-content-between {
+  justify-content: space-between !important;
+}
